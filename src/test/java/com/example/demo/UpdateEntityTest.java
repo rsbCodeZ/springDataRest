@@ -50,7 +50,7 @@ public class UpdateEntityTest {
 	}
 
 	@Test
-	public void updateLibraryWithNewBook() throws Exception {
+	public void updateLibraryBook() throws Exception {
 
 		Library originalLibrary = libraryRepository.findOne(library.getId());
 		Set<Book> originalBooks = originalLibrary.getBooks();
