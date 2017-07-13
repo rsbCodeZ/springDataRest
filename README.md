@@ -16,7 +16,7 @@ Scenario:
         {
           "id": 1,
           "title": "The Philosopher's Stone ",
-          "author": "J K Rowlingss",
+          "author": "J K Rowling",
           "stockCount": 5
         },
         {
