@@ -1,0 +1,16 @@
+{
+  "name": "Sycamore Public Library",
+  "books": [
+    {
+      "title": "Sense And Sensibility",
+      "author": "Jane",
+      "stockCount" : 10
+    },
+    {
+      "title": "The Philosopher's Stone ",
+      "author": "J K Rowling",
+      "stockCount" : 5
+    }
+
+  ]
+}
