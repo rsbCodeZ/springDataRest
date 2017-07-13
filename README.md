@@ -2,9 +2,7 @@
 
 This is sample project which has failing test case to demonstrate the issue which occurs during PUT.
 
-Run UpdateEntityTest class :
-
-The test method updateLibraryBook fails as id & book's author name has mismatch.
+Run UpdateEntityTest class :The test method updateLibraryBook fails as id & book's title name mismatches.
 
 Scenario:
 
@@ -30,10 +28,10 @@ Scenario:
       ],
       "_links": {
         "self": {
-          "href": "http://localhost:8080/libraries/2"
+          "href": "http://localhost:8080/libraries/1"
         },
         "library": {
-          "href": "http://localhost:8080/libraries/2"
+          "href": "http://localhost:8080/libraries/1"
         }
       }
     }
